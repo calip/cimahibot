@@ -6,7 +6,7 @@ const bot = new TelegramBot(token, {port: true});
 
 bot.onText(/\/tes/, function(msg, match) {
   var fromId = msg.from.id;
-  var insults = ["Dumbass", "Out of 100,000 sperm, you were the fastest?", "Look, you aint funny. Your life is just a joke."];
+  var insults = ["Dumbass", "you were the fastest?", "Look, you aint funny. Your life is just a joke."];
   var chosenInsult = insults[Math.floor(Math.random() * insults.length)];
   bot.sendMessage(fromId, chosenInsult);
 });
