@@ -1,0 +1,18 @@
+{
+  "name": "cimahibot",
+  "version": "1.0.0",
+  "description": "Cimahi Euy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "Cimahi"
+  ],
+  "author": "alipultra",
+  "license": "ISC",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.28.0"
+  }
+}
