@@ -10,7 +10,7 @@
   "keywords": [
     "Cimahi"
   ],
-  "author": "alipultra",
+  "author": "asap07",
   "license": "ISC",
   "dependencies": {
     "node-telegram-bot-api": "^0.28.0"
